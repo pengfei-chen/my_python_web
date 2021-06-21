@@ -1,0 +1,220 @@
+Starting Myblog as fei
+dirname: missing operand
+Try 'dirname --help' for more information.
+[2021-06-21 09:44:56 -0700] [17435] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/fei/Desktop/DjangoDev/www/Myblog
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: Myblog
+  default_proc_name: config.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f33b3f15550>
+  on_reload: <function OnReload.on_reload at 0x7f33b3f15670>
+  when_ready: <function WhenReady.when_ready at 0x7f33b3f15790>
+  pre_fork: <function Prefork.pre_fork at 0x7f33b3f158b0>
+  post_fork: <function Postfork.post_fork at 0x7f33b3f159d0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f33b3f15af0>
+  worker_int: <function WorkerInt.worker_int at 0x7f33b3f15c10>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f33b3f15d30>
+  pre_exec: <function PreExec.pre_exec at 0x7f33b3f15e50>
+  pre_request: <function PreRequest.pre_request at 0x7f33b3f15f70>
+  post_request: <function PostRequest.post_request at 0x7f33b3eaa040>
+  child_exit: <function ChildExit.child_exit at 0x7f33b3eaa160>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f33b3eaa280>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f33b3eaa3a0>
+  on_exit: <function OnExit.on_exit at 0x7f33b3eaa4c0>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-21 09:44:56 -0700] [17435] [INFO] Starting gunicorn 20.1.0
+[2021-06-21 09:44:56 -0700] [17435] [DEBUG] Arbiter booted
+[2021-06-21 09:44:56 -0700] [17435] [INFO] Listening at: http://127.0.0.1:8000 (17435)
+[2021-06-21 09:44:56 -0700] [17435] [INFO] Using worker: sync
+[2021-06-21 09:44:56 -0700] [17439] [INFO] Booting worker with pid: 17439
+[2021-06-21 09:44:56 -0700] [17435] [DEBUG] 1 workers
+[2021-06-21 09:45:28 -0700] [17435] [INFO] Handling signal: term
+[2021-06-22 00:45:28 +0800] [17439] [INFO] Worker exiting (pid: 17439)
+[2021-06-21 09:45:29 -0700] [17435] [INFO] Shutting down: Master
+Starting Myblog as fei
+dirname: missing operand
+Try 'dirname --help' for more information.
+[2021-06-21 09:45:31 -0700] [17516] [DEBUG] Current configuration:
+  config: ./gunicorn.conf.py
+  wsgi_app: None
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  print_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/fei/Desktop/DjangoDev/www/Myblog
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: Myblog
+  default_proc_name: config.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f80c7fbb550>
+  on_reload: <function OnReload.on_reload at 0x7f80c7fbb670>
+  when_ready: <function WhenReady.when_ready at 0x7f80c7fbb790>
+  pre_fork: <function Prefork.pre_fork at 0x7f80c7fbb8b0>
+  post_fork: <function Postfork.post_fork at 0x7f80c7fbb9d0>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f80c7fbbaf0>
+  worker_int: <function WorkerInt.worker_int at 0x7f80c7fbbc10>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f80c7fbbd30>
+  pre_exec: <function PreExec.pre_exec at 0x7f80c7fbbe50>
+  pre_request: <function PreRequest.pre_request at 0x7f80c7fbbf70>
+  post_request: <function PostRequest.post_request at 0x7f80c7f50040>
+  child_exit: <function ChildExit.child_exit at 0x7f80c7f50160>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f80c7f50280>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f80c7f503a0>
+  on_exit: <function OnExit.on_exit at 0x7f80c7f504c0>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2021-06-21 09:45:31 -0700] [17516] [INFO] Starting gunicorn 20.1.0
+[2021-06-21 09:45:31 -0700] [17516] [DEBUG] Arbiter booted
+[2021-06-21 09:45:31 -0700] [17516] [INFO] Listening at: http://127.0.0.1:8000 (17516)
+[2021-06-21 09:45:31 -0700] [17516] [INFO] Using worker: sync
+[2021-06-21 09:45:31 -0700] [17520] [INFO] Booting worker with pid: 17520
+[2021-06-21 09:45:31 -0700] [17516] [DEBUG] 1 workers
+[2021-06-22 00:46:18 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:46:21 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:46:23 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:47:33 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:47:35 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:48:08 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:48:11 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:48:16 +0800] [17520] [DEBUG] GET /read/3
+[2021-06-22 00:48:18 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:48:20 +0800] [17520] [DEBUG] GET /read/2
+[2021-06-22 00:48:22 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:48:24 +0800] [17520] [DEBUG] GET /read/1
+[2021-06-22 00:48:26 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:48:27 +0800] [17520] [DEBUG] GET /admin/blog/blog/
+[2021-06-22 00:48:28 +0800] [17520] [DEBUG] GET /admin/jsi18n/
+[2021-06-22 00:48:31 +0800] [17520] [DEBUG] GET /admin/blog/blog/3/change/
+[2021-06-22 00:48:32 +0800] [17520] [DEBUG] GET /admin/jsi18n/
+[2021-06-22 00:48:33 +0800] [17520] [DEBUG] GET /admin/blog/blog/
+[2021-06-22 00:48:35 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:49:11 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:49:16 +0800] [17520] [DEBUG] GET /
+[2021-06-22 00:49:23 +0800] [17520] [DEBUG] GET /admin/auth/user/
+[2021-06-22 00:49:23 +0800] [17520] [DEBUG] GET /admin/jsi18n/
+[2021-06-22 00:49:27 +0800] [17520] [DEBUG] GET /admin/
+[2021-06-22 00:49:28 +0800] [17520] [DEBUG] GET /admin/auth/group/
+[2021-06-22 00:49:29 +0800] [17520] [DEBUG] GET /admin/jsi18n/
+[2021-06-22 00:49:31 +0800] [17520] [DEBUG] GET /admin/
