@@ -1,11 +1,17 @@
 from django.contrib import admin
 
+from .models import Category, Tag, Post
 # Register your models here.
 
-from .models import Blog
-# admin.site.register(Blog)
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    pass
 
-@admin.register(Blog)
-class BlogAdmin(admin.ModelAdmin):
-    list_display=("title", "create_time", "count")
+@admin.register(Tag)
+class TagAdmin(admin.ModelAdmin):
+    pass
+
+@admin.register(Post)
+class PostAdmin(admin.ModelAdmin):
+    pass
     
